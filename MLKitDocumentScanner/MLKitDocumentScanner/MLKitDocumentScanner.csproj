@@ -50,18 +50,18 @@
   </ItemGroup>
 
   <ItemGroup>
-    <AndroidMavenLibrary
-      Include="com.google.android.gms:play-services-mlkit-document-scanner"
-      Version="16.0.0"
-      Repository="Google" />
+    <AndroidMavenLibrary Include="com.google.android.gms:play-services-mlkit-document-scanner" Version="16.0.0" Repository="Google" />
 
-    <AndroidNamespaceReplacement
-      Include="com.google.mlkit.vision.documentscanner"
-      Replacement="Net.Google.MLKit.Vision.DocumentScanner" />
+    <AndroidNamespaceReplacement Include="com.google.mlkit.vision.documentscanner" Replacement="Net.Google.MLKit.Vision.DocumentScanner" />
   </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="Xamarin.AndroidX.Activity" Version="1.11.0" />
+    <PackageReference Include="Xamarin.AndroidX.Lifecycle.LiveData.Core" Version="2.9.4" />
+    <PackageReference Include="Xamarin.AndroidX.Lifecycle.ViewModelSavedState" Version="2.9.4" />
+    <PackageReference Include="Xamarin.AndroidX.Lifecycle.ViewModelSavedState.Android" Version="2.9.4" />
+    <PackageReference Include="Xamarin.AndroidX.Lifecycle.Runtime" Version="2.9.4" />
+    <PackageReference Include="Xamarin.AndroidX.Lifecycle.Process" Version="2.9.4" />
     <PackageReference Include="Xamarin.Firebase.Components" Version="119.0.0.1" />
     <PackageReference Include="Xamarin.Firebase.Encoders" Version="117.0.0.23" />
     <PackageReference Include="Xamarin.Firebase.Encoders.JSON" Version="118.0.1.15" />
